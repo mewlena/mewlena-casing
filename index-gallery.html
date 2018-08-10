@@ -12,7 +12,7 @@ layout: default
             <div class="post py3">
               {% if post.product-title == null %}<p class="post-meta">{{ post.date | date: site.date_format }}</p>{% endif %}
               {% if post.product-title %}
-                <a href="{{ post.categories }}{{ post.url | prepend: site.baseurl }}" class="post-link">
+                <a href="{{ post.url | prepend: site.baseurl }}" class="post-link">
                   <div class="arti mr2">
                     {% if post.image-square == null %}<img src="//drive.google.com/thumbnail?sz=w165&id={{ post.image-drive }}">{% endif %}
                     {% if post.image-square %}<img src="{{ post.image-square}}">{% endif %}

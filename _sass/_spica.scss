@@ -111,18 +111,6 @@
   border: 0.5em solid #f6f6f6;
 }
 
-.carousel {
-  background: #EEE;
-}
-
-.carousel img {
-  display: block;
-  height: 200px;
-}
-.carousel button{
-  padding: 0;
-}
-  
 
 @media screen and (min-width: $viewport-large) {
 
@@ -174,9 +162,6 @@
     left: $space-2;
   }
   
-  .carousel img {
-    height: 400px;
-  }
   
   
 }
